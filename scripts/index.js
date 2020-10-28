@@ -180,31 +180,17 @@ $(function () {
   }, 10);
 
   // CONTACT FORM
-  $('#contact-form').submit(function (e) {
-    // e.preventDefault();
-    // const message = document.querySelector('#message')
-    // const name = document.querySelector('#name')
-    // const email = document.querySelector('#email')
-    // console.log(message.value);
-    // console.log(name.value);
-    // console.log(email.value);
-
-    // const url = 'https://api.telegram.org/bot1092915866:AAHWq2Cq5CShnR_RISLtABBbtxqPfYmXFjg/sendMessage?chat_id=&text=';
-    // let message = document.querySelector('.message').value;
-    // let xhttp = new XMLHttpRequest();
-    // xhttp.open("GET", url + message, true);
-    // xhttp.send();
-
-    // console.log();
-    // done(function(response) {
-    //   $('#success').addClass('expand');
-    //   $('#contact-form')
-    //     .find('input[type=text], input[type=email], textarea')
-    //     .val('');
-    // });
-  });
 
   $('#close').click(function () {
     $('#success').removeClass('expand');
   });
 });
+
+
+// const message = document.querySelector('#message')
+// const name = document.querySelector('#name')
+// const email = document.querySelector('#email')
+// const url = 'https://api.telegram.org/bot1092915866:AAHWq2Cq5CShnR_RISLtABBbtxqPfYmXFjg/sendMessage?chat_id=431924266&text=';
+// let xhttp = new XMLHttpRequest();
+// xhttp.open("GET", url + message, true);
+// xhttp.send();
